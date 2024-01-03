@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Inserir_um_subtítulo-removebg-preview",
+  "identifier": "texture:122124-1a24d19a-8116-4b01-b950-a608ee07cc6a",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "0ef106968cbf5e353d66f3e28ca831ff",
+  "assetLocator": "textures/Inserir_um_subtítulo-removebg-preview.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 433,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 577,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "0ef106968cbf5e353d66f3e28ca831ff",
+      "colorCount": 6251,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 0.9582720186327575,
+      "pixelsHigh": 433,
+      "pixelsWide": 577
+    }
+  ]
+}
