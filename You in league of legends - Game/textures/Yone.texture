@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Yone",
+  "identifier": "texture:20488-c8140300-9f40-4f9e-be23-877e9480e0c6",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "646d5027af4294edf06df33f68949b72",
+  "assetLocator": "textures/Yone.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 848,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "646d5027af4294edf06df33f68949b72",
+      "colorCount": 79871,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 4.386458757929232,
+      "pixelsHigh": 1024,
+      "pixelsWide": 848
+    }
+  ]
+}

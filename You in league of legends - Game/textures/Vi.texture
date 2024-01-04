@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Vi",
+  "identifier": "texture:20440-c8140300-9f40-4f9e-be23-877e9480e0c6",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "df6356f7d470a3833081a0681738ad5e",
+  "assetLocator": "textures/Vi.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 560,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "df6356f7d470a3833081a0681738ad5e",
+      "colorCount": 83967,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 7.935086120383965,
+      "pixelsHigh": 1024,
+      "pixelsWide": 560
+    }
+  ]
+}

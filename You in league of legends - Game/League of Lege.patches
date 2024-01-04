@@ -1,0 +1,165 @@
+{
+  "id": "2c81403009f404f9ebe23877e9480e0c6",
+  "revision": "3c81403009f404f9ebe23877e9480e0c6",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 175
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 175
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:1023-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "fromPatch": "template_patch_model:905-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:1021-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:1027-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "fromPatch": "template_patch_model:1021-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:1025-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:1035-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "fromPatch": "template_patch_model:1025-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:1029-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:19692-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "fromPatch": "template_patch_model:1029-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:19690-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:19694-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "fromPatch": "template_patch_model:19690-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "fromPort": "1001",
+        "toPatch": "consumer_patch_model:19686-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "toPort": "2"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:94-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "subpatches": [
+          "consumer_patch_model:19686-c8140300-9f40-4f9e-be23-877e9480e0c6",
+          "template_patch_model:1021-c8140300-9f40-4f9e-be23-877e9480e0c6",
+          "template_patch_model:1025-c8140300-9f40-4f9e-be23-877e9480e0c6",
+          "template_patch_model:1029-c8140300-9f40-4f9e-be23-877e9480e0c6",
+          "template_patch_model:19690-c8140300-9f40-4f9e-be23-877e9480e0c6",
+          "template_patch_model:905-c8140300-9f40-4f9e-be23-877e9480e0c6"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "AnimationCharacters",
+        "identifier": "consumer_patch_model:19686-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "object": "sequenceTexture:1041-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "objectProperty": "current_frame",
+        "position": [
+          1772,
+          -4
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Switch",
+        "identifier": "template_patch_model:1021-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "position": [
+          956,
+          68
+        ],
+        "templateId": "builtin.toggle"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Not",
+        "identifier": "template_patch_model:1025-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "position": [
+          1148,
+          68
+        ],
+        "templateId": "builtin.negation"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Loop Animation",
+        "identifier": "template_patch_model:1029-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "position": [
+          1316,
+          44
+        ],
+        "templateId": "builtin.group.loopAnimation",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "double",
+              "v": 1
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "identifier": "template_patch_model:19690-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "position": [
+          1532,
+          -4
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "103",
+            "value": {
+              "t": "double",
+              "v": 24
+            }
+          }
+        ],
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Screen Tap",
+        "identifier": "template_patch_model:905-c8140300-9f40-4f9e-be23-877e9480e0c6",
+        "position": [
+          788,
+          20
+        ],
+        "templateId": "builtin.tapGesture",
+        "values": [
+          {
+            "port": "1",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

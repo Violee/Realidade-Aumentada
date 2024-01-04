@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Singed",
+  "identifier": "texture:20428-c8140300-9f40-4f9e-be23-877e9480e0c6",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "e30d430a5dde6a3014dbad42467caf58",
+  "assetLocator": "textures/Singed.webp",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 990,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 499,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "e30d430a5dde6a3014dbad42467caf58",
+      "colorCount": 72068,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "webp",
+      "entropyOfDistribution": 10.033491209296026,
+      "pixelsHigh": 990,
+      "pixelsWide": 499
+    }
+  ]
+}
