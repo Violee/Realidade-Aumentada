@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Sett",
+  "identifier": "texture:20448-c8140300-9f40-4f9e-be23-877e9480e0c6",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "793cb0213ba0e93be01c1e5d3f8410e7",
+  "assetLocator": "textures/Sett.webp",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 499,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 256,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "793cb0213ba0e93be01c1e5d3f8410e7",
+      "colorCount": 31897,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "webp",
+      "entropyOfDistribution": 8.150904892237548,
+      "pixelsHigh": 499,
+      "pixelsWide": 256
+    }
+  ]
+}

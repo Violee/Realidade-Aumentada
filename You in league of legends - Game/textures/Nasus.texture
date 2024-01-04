@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Nasus",
+  "identifier": "texture:20480-c8140300-9f40-4f9e-be23-877e9480e0c6",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "dee50c1c01214759162a09a1f965e191",
+  "assetLocator": "textures/Nasus.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 878,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 642,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "dee50c1c01214759162a09a1f965e191",
+      "colorCount": 60786,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 4.815569367478075,
+      "pixelsHigh": 878,
+      "pixelsWide": 642
+    }
+  ]
+}

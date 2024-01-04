@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Galio",
+  "identifier": "texture:20452-c8140300-9f40-4f9e-be23-877e9480e0c6",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "49d0487d1a2aa0d542e5a055486acc85",
+  "assetLocator": "textures/Galio.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 890,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 898,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "49d0487d1a2aa0d542e5a055486acc85",
+      "colorCount": 134931,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 7.581779000701019,
+      "pixelsHigh": 890,
+      "pixelsWide": 898
+    }
+  ]
+}

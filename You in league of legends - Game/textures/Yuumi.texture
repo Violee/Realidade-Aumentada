@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Yuumi",
+  "identifier": "texture:20464-c8140300-9f40-4f9e-be23-877e9480e0c6",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "0abebf08d58949333f2e77334f4f1c0c",
+  "assetLocator": "textures/Yuumi.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 921,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 636,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "0abebf08d58949333f2e77334f4f1c0c",
+      "colorCount": 90931,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 7.997393834961321,
+      "pixelsHigh": 921,
+      "pixelsWide": 636
+    }
+  ]
+}
